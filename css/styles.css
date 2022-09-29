@@ -1,0 +1,142 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    width: 1000px;
+    margin: 0px auto;
+}
+
+#menu-top {
+    background: #252525;
+    height: 40px;
+}
+
+#banner {
+    height: auto;
+    width: 1000px;
+}
+
+#banner img {
+    width: 1000px;
+}
+
+#main #left {
+    width: 690px;
+    float: left;
+    min-height: 400px;
+}
+
+#main #right {
+    margin-left: 10px;
+    width: 300px;
+    float: left;
+    min-height: 400px;
+}
+
+#footer {
+    background: blue;
+    width: 1000px;
+    text-align: center;
+    height: 60px;
+    clear: left;
+}
+
+#footer p {
+    margin: 0px;
+    line-height: 30px;
+}
+
+#menu-top ul {
+    padding: 0px;
+    margin: 0px;
+}
+
+#menu-top ul li {
+    list-style: none;
+    float: left;
+}
+
+#menu-top ul li .active {
+    background: rgb(0, 140, 255);
+}
+
+#menu-top ul li a {
+    text-decoration: none;
+    display: block;
+    height: 40px;
+    line-height: 40px;
+    color: white;
+    padding: 0px 20px;
+    border-right: 1px solid gray;
+    transition: 0.5s;
+}
+
+#menu-top ul li a:hover {
+    background: blue;
+}
+
+#main #left ul {
+    padding: 0px;
+    margin: 0px;
+}
+
+#main #left ul li {
+    list-style: none;
+    clear: left;
+    border-bottom: 2px solid gray;
+    float: left;
+    margin-bottom: 20px;
+}
+
+#main #left ul li img {
+    float: left;
+    margin-right: 10px;
+    margin-bottom: 20px;
+}
+
+#main {
+    margin-top: 10px;
+}
+
+#main #left ul li h2 {
+    margin-top: 0px;
+}
+
+#main #right .menu-right {
+    position: relative;
+}
+
+#main #right .menu-right ul {
+    margin-top: 0px;
+    padding: 0px;
+}
+
+#main #right .menu-right ul li {
+    list-style: none;
+}
+
+#main #right .menu-right ul li a {
+    color: gray;
+    display: block;
+    text-decoration: none;
+    line-height: 32px;
+    border-bottom: 1px solid gray;
+}
+
+#main #right .menu-right ul li a:hover {
+    color: rgb(0, 153, 255);
+}
+
+#main #right .menu-right h3 {
+    background: blue;
+    height: 40px;
+    margin-top: 0px;
+    text-align: center;
+    line-height: 40px;
+    color: white;
+}
+
+#main #right .menu-right i {
+    font-size: 25px;
+    position: absolute;
+    top: 7px;
+    left: 55px;
+}
